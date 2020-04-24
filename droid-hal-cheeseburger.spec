@@ -18,7 +18,13 @@
   /dsp \
   /firmware \
   /persist \
+  /d \
+  /product \
+  /verity_key \
 %{nil}
+
+# Ignore unpackaged (and broken) /bugreports & /sdcard symlinks
+%define _unpackaged_files_terminate_build 0
 
 %define makefstab_skip_entries /dev/cpuctl /dev/stune /sys/fs/pstore
 
