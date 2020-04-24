@@ -4,7 +4,7 @@
 %define device cheeseburger
 
 %define vendor_pretty OnePlus
-%define device_pretty OnePlus 5
+%define device_pretty OnePlus 5 (A5000)
 
 %define droid_target_aarch64 1
 %define enable_kernel_update 1
