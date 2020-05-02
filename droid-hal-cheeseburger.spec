@@ -29,9 +29,4 @@
 # Don't create systemd mount units for these
 %define makefstab_skip_entries /dev/cpuctl /dev/stune /sys/fs/pstore /mnt/vendor/persist
 
-# Required for gesture-daemon (https://git.io/JerMg) to work since SFOS 3.3
-%define additional_post_scripts \
-  /usr/bin/groupadd-user system || : \
-%{nil}
-
 %include rpm/dhd/droid-hal-device.inc
