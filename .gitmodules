@@ -1,4 +1,3 @@
 [submodule "dhd"]
 	path = dhd
-	url = https://github.com/sailfishos-oneplus5/droid-hal-device
-	branch = master
+	url = https://github.com/mer-hybris/droid-hal-device.git
